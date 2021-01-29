@@ -1,0 +1,123 @@
+:root {
+	--color-text: #ffffff;
+	--color-body: #3399cc;
+}
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	outline: none;
+	box-sizing: border-box;
+	transition: all .2s ease-in;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+body, html {
+	min-height: 100%;
+	width: 100%;
+}
+/* Main Styles */
+html {
+	background: var(--color-body);
+	border: 25px solid #2b81ac;
+	color: var(--color-text);
+	font: 400 22px/1.3 "Lucida Sans Unicode", "Lucida Grande", sans-serif;	
+}
+.container {
+	margin: 0 auto;
+	max-width: 1024px;
+	width: 100%;
+	padding: 0 20px;
+}
+.header {
+	padding: 35px 0 0;
+	font-size: 30px;
+	font-weight: 600;
+}
+main {
+	box-sizing: border-box;
+	background: #ffffff;
+}
+ul {
+	margin-top: 35px;
+	font-size: 0px;
+	padding: 3px;
+}.cities:hover > li {
+	opacity: .7;
+}
+.cities li {
+	display: inline-block;
+	text-align: center;
+	font-size: 26px;
+	border: 3px solid #ffffff;
+	padding: 35px 0 30px;
+}
+.cities li .temperature, .cities li .wi {
+	display: inline-block;
+	vertical-align: middle;
+	padding-top: 20px;
+	color: rgba(255,255, 255, 0.8);
+}
+.cities li .temperature::after {
+	content: '°C';
+}
+.cities li .wi {
+	font-size: 40px;
+	align-items: center;
+}
+.cities li:hover {
+	opacity: 1;
+}
+.city-Lisbon {
+	width: 50%;
+	display: inline-block;
+	text-align: center;
+	background:var(--color-body);
+}
+.city-Paris {
+	width: 25%;
+	background: #33cccc;
+}
+.city-Belgrade {
+	width: 25%;
+	background: #996699;
+}
+.city-Moscow {
+	width: 25%;
+	background: #c24747;
+}
+.city-Tel-Aviv {
+	width: 25%;
+	background: #e2674a;
+}
+.city-Cair {
+	width: 25%;
+	background: #ffcc66;
+}
+.city-New-York {
+	width: 25%;
+	background: #99cc99;
+}
+.city-New-Delhi {
+	width: 25%;
+	background: #669999;
+}
+.city-San-Francisco {
+	width: 50%;
+	background: #cc6699;	
+}
+.city-Tokyo {
+	width: 25%;
+	background: #339966;
+}
+.city-Sydney {
+	width: 100%;
+	background: #666699;
+}
+footer {
+	padding-top: 35px;	
+	font-size: 18px;
+}
+
